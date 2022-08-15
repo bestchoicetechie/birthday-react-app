@@ -3,10 +3,7 @@ import './BirthdayList.css';
 import birthdayItems from '../Data';
 import {useState} from 'react';
 
-// 1. declare a clearAll variable and initialize as true using useState.
-// 2. declare a clear function to toggle the clearAll variable
-// 3. the onClick value in the button to be set to the clear function.
-// 4. use conditional statement to display the two interfaces.
+
 
 const BirthdayList = ({item}) => {
     const [clearAll, setClearAll] = useState(true);
