@@ -1,0 +1,63 @@
+img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+   
+}
+.heading{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
+    padding: 1rem 2rem;
+}
+.birthday-container{
+    width: 35%;
+    background-color: aliceblue;
+    align-items: center;
+    margin: 0.5rem auto;
+    text-align: left;
+    box-shadow: 2px 4px 6px black;
+    
+}
+.birthday-inner{
+    display: flex;
+    padding: 0.5rem 2rem;
+
+  
+}
+.birthday-inner .content{
+    padding: 1rem;
+}
+
+h3{
+    font-size: 1rem;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+p{
+    font-weight: 300;
+    font-size: 0.85rem;
+    color: rgb(151, 151, 151);
+}
+.empty{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.clear-btn{
+    width: 100%;
+    /* background-color: red; */
+    margin: 1rem 0;
+    
+}
+button{
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    background: rgb(247, 127, 197);
+    width: 90%;
+    margin: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
